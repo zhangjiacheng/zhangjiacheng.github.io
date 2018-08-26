@@ -45,10 +45,10 @@ blog_button:
     title: Posts
 
 # Navigation buttons in the front page.s
-nav:
-    - {title: All posts, description: archive, url: "https://zhangjiacheng.github.io/archive" }   
-    - {title: Flag, description: tags, url: "https://zhangjiacheng.github.io/tags" }      
-    - {title: About me, description: about, url: "https://zhangjiacheng.github.io/about" }      
+#nav:
+#    - {title: All posts, description: archive, url: "https://zhangjiacheng.github.io/archive" }   
+#    - {title: Flag, description: tags, url: "https://zhangjiacheng.github.io/tags" }      
+#    - {title: About me, description: about, url: "https://zhangjiacheng.github.io/about" }      
     
 
 # Pagination

@@ -49,7 +49,7 @@ https://github.com/creationix/nvm
 https://github.com/weexteam/weex-pack/blob/master/doc/plugin-devloping-weexpack.md
 https://www.darkhandz.com/2017/11/17/weex插件开发（iOS）/
 
-http://weex.apache.org/guide/create-a-plugin.html  *
+https://weex.apache.org/guide/create-a-plugin.html  *
 
 
 ## npm install出现"Unexpected end of JSON input while parsing near"错误解决方法
@@ -171,17 +171,17 @@ javaCompileOptions {
 Weex SDK provides only rendering capabilities, rather than have other capabilities. There are some internal components, modules and handlers. If you want these features which weexSDK doesn’t provide, you can to extend.
 
 iOS拓展简单的教程：
-http://weex.apache.org/guide/extend-ios.html
+https://weex.apache.org/guide/extend-ios.html
 
 android拓展简单的教程：
-http://weex.apache.org/guide/extend-android.html
+https://weex.apache.org/guide/extend-android.html
 
 我们要达到的目的是：
 iOS Android商量好，暴露给javascript相同的接口调用。
 
 ## JS调用Native可以，使用封装Module来实现。 Native通知JS，则可以通过globalEvent来实现。
 
-    //globalEvent的使用,[具体说明见](http://weex.apache.org/references/modules/globalevent.html)
+    //globalEvent的使用,[具体说明见](https://weex.apache.org/references/modules/globalevent.html)
     //--1,在原生里面发起通知,如IOS OC：使用WXSDKInstance的 - (void)fireGlobalEvent:(NSString *)eventName params:(NSDictionary *)params；
     //在类WXDemoViewController中在viewDidLoad调用[self render]后：
     [_instance fireGlobalEvent:@"zjcglobalEvent" params:@{@"key":@"zhangjiacheng"}];
@@ -220,7 +220,7 @@ iOS Android商量好，暴露给javascript相同的接口调用。
     }
 
 ## weex使用字体图片的引用问题，解决见：
-http://www.iconfont.cn/help/detail?spm=a313x.7781069.1998910419.15&helptype=code
+https://www.iconfont.cn/help/detail?spm=a313x.7781069.1998910419.15&helptype=code
 https://segmentfault.com/a/1190000011852209  
 
 ## VS code格式化VUE代码，快捷方式：
@@ -252,12 +252,12 @@ Code->首选项->设置
 
  ## Weex插件的开发
  1. 网上有一些开源的插件供使用
-    http://natjs.com/#/README 
+    https://natjs.com/#/README 
  2. 自己开发可以参考开源的插件。写好原生代码部分后，前端部分写好JS调用的定义。     
 
 
     //----------- 开发 -----------
-http://192.168.1.209:7093/tree/weextraing.git/master/docs;jsessionid=1fi3ccugb5c5oji5kn5fqxlnc
+https://192.168.1.209:7093/tree/weextraing.git/master/docs;jsessionid=1fi3ccugb5c5oji5kn5fqxlnc
     //------ 路由介绍文章
     //https://scotch.io/tutorials/getting-started-with-vue-router
 

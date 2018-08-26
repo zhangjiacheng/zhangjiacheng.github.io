@@ -1,5 +1,3 @@
-source 'https://rubygems.org'
-gem 'jekyll'
-gem 'redcarpet'
-gem 'jekyll-paginate'
-gem 'jekyll-sitemap'
+source 'https://gems.ruby-china.com'
+gem 'github-pages', group: :jekyll_plugins
+

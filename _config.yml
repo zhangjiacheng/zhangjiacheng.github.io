@@ -1,60 +1,67 @@
-# Basic
-title: Jiacheng Zhang
-subtitle: Personal Site
-description: Welcome to my personal site
+#
+###################################
+# Site wide configuration
+####################################
+#
+title: zhangjiacheng
 email: zhangjiachengwang@163.com
-avatarTitle: Jiacheng
-avatarDesc: Mobile Developer 
-url: "https://zhangjiacheng.github.io"
+description: Jiacheng Zhang's blog,powered by jekyll.
+url: https://zhangjiacheng.github.io 
+keywords: ["Mobile", "Salesforce"]
 
-# Comment
-comment:
-    disqus: jiacheng
-    # uyan: 2143225  # 有言id,登录有言官网申请
+#
+###################################
+# Jekyll configuration
+####################################
+#
+timezone:          Changsha/China
+markdown:          kramdown
+highlighter:       rouge
+excerpt_separator: <!--more-->
+permalink:         /articles/:year-:month/:title
 
-# Social
-social:
-    weibo: 1111111 
-    github: zhangjiacheng
-    # twitter: 
-    mail: zhangjiachengwang@163.com
+kramdown:
+  auto_ids: true
+  footnote_nr: 1
+  entity_output: as_char
+  toc_levels: 1..6
+  enable_coderay: false
 
-# 百度统计 
-# 使用博客模板请去掉或者更换 id 
-#baidu:
-#    id: 8ba1c6be0953b6f9c2ba38e57f615421  
-
-# Google Analytics
-# 使用博客模板请去掉或者更换 id
-#ga:
-#    id: UA-84134159-3   
-#    host: auto  
-
-
-
-permalink: /:year/:month/:title/
-# Format
-highlighter: rouge
-
-textColor: #FF0000
-
-# supported colors: blue, green, purple, red, orange or slate. If you need clear, leave it empty.
-cover_color: clear
-
-# The blog button should not be removed.
-blog_button:
-    title: Posts
-
-# Navigation buttons in the front page.s
-#nav:
-#    - {title: All posts, description: archive, url: "https://zhangjiacheng.github.io/archive" }   
-#    - {title: Flag, description: tags, url: "https://zhangjiacheng.github.io/tags" }      
-#    - {title: About me, description: about, url: "https://zhangjiacheng.github.io/about" }      
-    
-
-# Pagination
-gems: [jekyll-paginate,jekyll-sitemap]
-paginate: 20
-paginate_path: "page/:num/"
-
-
+#
+###################################
+# Site Owner configuration
+####################################
+#
+owner:
+  name: zhangjiacheng
+  avatar: avatar.jpg
+  job: "Mobile & Salesforce"
+  bio: "A mobile developer who loves attemping everything. Working for Unisoft in Changsha, China."
+  email: zhangjiachengwang@163.com
+  disqus-shortname: #username
+  twitter:  #username
+  facebook: #username
+  google:
+    plus: #username
+    analytics: UA-62251910-2
+    verify:
+    ad-client:
+    ad-slot:
+  bing-verify:
+  github: zhangjiacheng #username
+  stackoverflow: #123456/username   from a "http://stackoverflow.com/users/123456/username" link
+  linkedin: #username
+  xing: #username
+  instagram: #username
+  lastfm: #username
+  tumblr: #username
+  pinterest: #username
+  foursquare: #username
+  steam: #username
+  dribbble: #username
+  youtube: #username
+  soundcloud: #username
+  weibo: #username
+  flickr: #username
+  codepen: #username
+  telegram: #username

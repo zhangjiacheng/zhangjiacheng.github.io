@@ -1,0 +1,16 @@
+# careers section data
+# if you don't have language feature(language.yml is empty), ignore "i18n" items
+- name: Unisoft
+  link: http://www.cn-unisoft.com/
+  date: Jan 2013 - <i class="fa fa-clock-o" aria-hidden="true" title="Until Now"></i>
+  job: Mobile Developer
+
+- name: Cyber Tech
+  link: http://www.CyberTech.cn/
+  date: Mar 2011 - Jan 2013
+  job: iOS Developer
+
+- name: Xianglang Tech
+  link: http://www.XianglangTech.com/
+  date: Jul 2009 - Mar 2011
+  job: C Programmar

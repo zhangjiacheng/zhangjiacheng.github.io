@@ -3,7 +3,7 @@ layout: post
 title: "Weex develpoment"
 date: 2018-02-25 
 description: "The FAQ of weex development"
-tag: Blog
+tag: WEEX
 ---   
 
 ## iOS CocoaPods 找不到包，报连不上github问题：

@@ -3,7 +3,7 @@
 # Site wide configuration
 ####################################
 #
-title: zhangjiacheng
+title: Jiacheng Zhang
 email: zhangjiachengwang@163.com
 description: Jiacheng Zhang's blog,powered by jekyll.
 url: https://zhangjiacheng.github.io 
@@ -33,7 +33,7 @@ kramdown:
 ####################################
 #
 owner:
-  name: zhangjiacheng
+  name: Jiacheng Zhang
   avatar: avatar.jpg
   job: "Mobile & Salesforce"
   bio: "A mobile developer who loves attemping everything. Working for Unisoft in Changsha, China."

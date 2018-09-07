@@ -6,35 +6,28 @@ description: "The FAQ of weex development"
 tag: WEEX
 ---   
 
-## iOS CocoaPods 找不到包，报连不上github问题：
-
-见
-https://stackoverflow.com/questions/38993527/cocoapods-failed-to-connect-to-github-to-update-the-cocoapods-specs-specs-repo
-
-## iOS_重新安装cocoapods:
-
-    gem install cocoapods -n /usr/local/bin
-
-## __（MAC系统）__ANDROID_HOME的配置：
-
-    vim  ~/.bash_profile
-
-    ANDROID_HOME="你SDK的目录地址，比如/Users/Android/sdk"
-    export ANDROID_HOME
-    export PATH=$PATH:$ANDROID_HOME/tools
-    export PATH=$PATH:$ANDROID_HOME/platform-tools
-
-## iOS_重置repository
-
-    pod repo remove master
-    pod setup
-
 ## 安装Weex失败的问题：
 
 一般归结为node.js版本的问题
 可以安装下node.js的版本控制工具
 https://github.com/creationix/nvm
 这样的话，可以来回切换不同版本的node.js。
+
+## Weex压缩打包
+
+    # 1.可以直接对着整个目录src目录下面的所有前端文件打包
+    weex compile -m src destinationJSPath
+
+    # 2.打包整个src目录下面的文件耗时太长，也可以选择单个打（比如你只改了单个vue，可以就打包这个vue）
+    weex compile -m theVueYouWantCompile.vue destinationJS.js
+
+## Weex前端代码的调试
+
+使用Chrome调试（没成功过）
+
+建议开发的时候在js里面多写console.log("XXXX日志XXX")
+在Xcode或Android Studio的输出终端中跟踪这些日志
+方便查找问题
 
 ## npm install 问题：
 !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
@@ -49,7 +42,7 @@ https://github.com/creationix/nvm
 https://github.com/weexteam/weex-pack/blob/master/doc/plugin-devloping-weexpack.md
 https://www.darkhandz.com/2017/11/17/weex插件开发（iOS）/
 
-https://weex.apache.org/guide/create-a-plugin.html  *
+http://weex.apache.org/guide/create-a-plugin.html  *
 
 
 ## npm install出现"Unexpected end of JSON input while parsing near"错误解决方法
@@ -57,21 +50,6 @@ https://weex.apache.org/guide/create-a-plugin.html  *
 见：https://blog.csdn.net/ITLionWoo/article/details/78632643
 
     npm cache clean --force
-
-## iOS Pod install报错：
-Installing WeexSDK (0.18.0)
-
-[!] Error installing WeexSDK
-[!] /usr/bin/git clone https://github.com/apache/incubator-weex.git /var/folders/3w/4d1zf5z52_nfds5hx23c2wg40000gn/T/d20180503-12392-7g4f5x --template= --single-branch --depth 1 --branch 0.18.0
-
-Cloning into '/var/folders/3w/4d1zf5z52_nfds5hx23c2wg40000gn/T/d20180503-12392-7g4f5x'...
-error: RPC failed; curl 18 transfer closed with outstanding read data remaining
-fatal: The remote end hung up unexpectedly
-fatal: early EOF
-fatal: index-pack failed
-
-解决办法：
-https://stackoverflow.com/questions/38618885/error-rpc-failed-curl-transfer-closed-with-outstanding-read-data-remaining
 
 ## Android - Error:(30, 0) Could not set unknown property 'outputFileName' 
 
@@ -171,17 +149,17 @@ javaCompileOptions {
 Weex SDK provides only rendering capabilities, rather than have other capabilities. There are some internal components, modules and handlers. If you want these features which weexSDK doesn’t provide, you can to extend.
 
 iOS拓展简单的教程：
-https://weex.apache.org/guide/extend-ios.html
+http://weex.apache.org/guide/extend-ios.html
 
 android拓展简单的教程：
-https://weex.apache.org/guide/extend-android.html
+http://weex.apache.org/guide/extend-android.html
 
 我们要达到的目的是：
 iOS Android商量好，暴露给javascript相同的接口调用。
 
 ## JS调用Native可以，使用封装Module来实现。 Native通知JS，则可以通过globalEvent来实现。
 
-    //globalEvent的使用,[具体说明见](https://weex.apache.org/references/modules/globalevent.html)
+    //globalEvent的使用,[具体说明见](http://weex.apache.org/references/modules/globalevent.html)
     //--1,在原生里面发起通知,如IOS OC：使用WXSDKInstance的 - (void)fireGlobalEvent:(NSString *)eventName params:(NSDictionary *)params；
     //在类WXDemoViewController中在viewDidLoad调用[self render]后：
     [_instance fireGlobalEvent:@"zjcglobalEvent" params:@{@"key":@"zhangjiacheng"}];
@@ -220,7 +198,7 @@ iOS Android商量好，暴露给javascript相同的接口调用。
     }
 
 ## weex使用字体图片的引用问题，解决见：
-https://www.iconfont.cn/help/detail?spm=a313x.7781069.1998910419.15&helptype=code
+http://www.iconfont.cn/help/detail?spm=a313x.7781069.1998910419.15&helptype=code
 https://segmentfault.com/a/1190000011852209  
 
 ## VS code格式化VUE代码，快捷方式：
@@ -252,12 +230,12 @@ Code->首选项->设置
 
  ## Weex插件的开发
  1. 网上有一些开源的插件供使用
-    https://natjs.com/#/README 
+    http://natjs.com/#/README 
  2. 自己开发可以参考开源的插件。写好原生代码部分后，前端部分写好JS调用的定义。     
 
 
     //----------- 开发 -----------
-https://192.168.1.209:7093/tree/weextraing.git/master/docs;jsessionid=1fi3ccugb5c5oji5kn5fqxlnc
+http://192.168.1.209:7093/tree/weextraing.git/master/docs;jsessionid=1fi3ccugb5c5oji5kn5fqxlnc
     //------ 路由介绍文章
     //https://scotch.io/tutorials/getting-started-with-vue-router
 
@@ -303,3 +281,40 @@ https://192.168.1.209:7093/tree/weextraing.git/master/docs;jsessionid=1fi3ccugb5
       # 不再跟踪某个目录
       git rm --cached -r 不再跟踪的目录
 
+## iOS CocoaPods 找不到包，报连不上github问题：
+
+见
+https://stackoverflow.com/questions/38993527/cocoapods-failed-to-connect-to-github-to-update-the-cocoapods-specs-specs-repo
+
+## iOS_重新安装cocoapods:
+
+    gem install cocoapods -n /usr/local/bin
+
+## __（MAC系统）__ANDROID_HOME的配置：
+
+    vim  ~/.bash_profile
+
+    ANDROID_HOME="你SDK的目录地址，比如/Users/Android/sdk"
+    export ANDROID_HOME
+    export PATH=$PATH:$ANDROID_HOME/tools
+    export PATH=$PATH:$ANDROID_HOME/platform-tools
+
+## iOS_重置repository
+
+    pod repo remove master
+    pod setup
+
+## iOS Pod install报错：
+Installing WeexSDK (0.18.0)
+
+[!] Error installing WeexSDK
+[!] /usr/bin/git clone https://github.com/apache/incubator-weex.git /var/folders/3w/4d1zf5z52_nfds5hx23c2wg40000gn/T/d20180503-12392-7g4f5x --template= --single-branch --depth 1 --branch 0.18.0
+
+Cloning into '/var/folders/3w/4d1zf5z52_nfds5hx23c2wg40000gn/T/d20180503-12392-7g4f5x'...
+error: RPC failed; curl 18 transfer closed with outstanding read data remaining
+fatal: The remote end hung up unexpectedly
+fatal: early EOF
+fatal: index-pack failed
+
+解决办法：
+https://stackoverflow.com/questions/38618885/error-rpc-failed-curl-transfer-closed-with-outstanding-read-data-remaining

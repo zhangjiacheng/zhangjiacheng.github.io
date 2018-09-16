@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Weex develpoment"
+title: "Weex 开发常见问题"
 date: 2018-02-25 
 description: "The FAQ of weex development"
 tag: WEEX
@@ -23,7 +23,7 @@ https://github.com/creationix/nvm
 
 ## Weex前端代码的调试
 
-使用Chrome调试（没成功过）
+使用Chrome调试
 
 建议开发的时候在js里面多写console.log("XXXX日志XXX")
 在Xcode或Android Studio的输出终端中跟踪这些日志

@@ -27,10 +27,10 @@ tag: Salesforce
 Lookup Relationship 和 Master-Detail Relationship都是用作Salesforce Objects间的关联关系。在字段层面其实就是在建关联关系字段的那个Object上多出一个字段用来存放被关联Object的SalesforceID。
 区别在于Lookup Relationship不是强制的，而Master-Detail Relationship关系是强制的。
 
-Lookup Relationship：
+*Lookup Relationship：*
 比如一个‘Account’下面可能关联多个‘Contact’，我们一般用Lookup Relationship来处理他们间的关系，也即在‘Contact’上建一个Lookup Relationship字段关联‘Account’。但这个关联关系不是强制的，也就是说一个‘Contact’可以独立存在，他可以不关联任何‘Account’。在Salesfroce平台删除了一个‘Account’，与之关联的‘Contact’并不连带删除。
 
-Master-Detail Relationship：
+*Master-Detail Relationship：*
 比如一个‘订单Object’关联多个‘订单明细Object’，我们一般用Master-Detail Relationship来处理他们间的关系，也即‘订单明细Object’上建一个Master-Detail Relationship字段关联‘订单Object’。但这个关联关系是强制的，也就是说一个‘订单明细Object’不可以独立存在，他必须关联一个‘订单Object’。在Salesfroce平台删除了一个‘订单Object’，与之关联的‘订单明细Object’也一并连带删除。
 
 ## 关于External Lookup Relationship
@@ -44,3 +44,21 @@ External Lookup Relationship,看名字就知道它是用于处理存放在Salesf
 在对应Salesforce的售点Object中建好一个External Lookup Relationship字段来对应’WCCS系统‘中的售点的主键。
 ’WCCS系统‘中的售点第一次导入到’BDR Salesforce系统‘，填入’WCCS系统‘的主键。
 下次’WCCS系统‘中该售点有更新要同步到Salesforce中，就拿这个External Lookup Relationship字段作为唯一标示来更新。
+
+## 如何建立Many-to-Many Relationship
+
+如上所述，在Salesforce Object间起关联关系的字段一般为Lookup Relationship和Master-Detail Relationship。但Lookup Relationship和Master-Detail Relationship都是One-to-Many的关系，比如一个Account下挂多个Contact，在一个订单下挂多个订单明细。
+
+那如何建立Many-to-Many Relationship呢？那就是建起中间作用的Object。
+
+*比如:*
+做一个人事聘用系统，需要几个表：
+
+1. 代表职位的Object,'Position'.
+2. 代表职位发布网站的Object, 'Employment Website'.
+
+一个'Employment Website'可以发布多个'Position'，一个'Position'可以发布到多个'Employment Website'。
+我们就在两者间建一个中间Object,'PositionWebsiteAssciation'.在'PositionWebsiteAssciation'分别建两个Master-Detail Relationship的字段分别关联到'Position'和'Employment Website'。
+从而实现'Position'和'Employment Website'间Many-to-Many Relationship。
+
+也就是说我们一般使用中间Object,利用Master-Detail来实现Many-to-Many。本质上说还使用的One-to-Many。

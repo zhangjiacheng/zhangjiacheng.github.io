@@ -100,7 +100,8 @@ Email地址的匹配规则应该是这样的：
     let myReg1 = new RegExp("\\{[^{}]+\\}","g");
     // or use follw literal create instance of RegExp
     myReg1 = /\{[^{}]+\}/g;
-    let matchArray = "{{localSearch:zhangjiacheng}xx{{remoteSearch:xhu}".match(myReg);
+    let toMatchStr = "{localSearch:zhangjiacheng}xx{remoteSearch:xhu}"
+    let matchArray = toMatchStr.match(myReg);
     matchArray.forEach( item => {console.log(item)} );
 
     //--- Objective-C ---

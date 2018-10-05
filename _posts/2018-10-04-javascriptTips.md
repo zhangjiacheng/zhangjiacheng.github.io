@@ -6,10 +6,11 @@ description: "FAQ and conventions of javascript"
 tag: javascript
 ---   
 
+*注：本文主要针对Weex开发中的javascript*
+
 ## 使用ES5还是ES6?
 
-答：ES6
-具体来讲我们尽量使用ES6的语法及特性。
+答：ES6, 具体来讲我们尽量使用ES6的语法及特性。
 
 *1.* 使用let和const分别定义变量和常量（能够使用const就用const，否则使用let），统一不再使用var。
 
@@ -90,7 +91,9 @@ tag: javascript
     console.log("b.hasOwnProperty('getPropertyA')", b.hasOwnProperty('getPropertyA'));
 
 *3.* 使用string template拼接字符串。
+
 *4.* 使用箭头函数。
+
 *5.* ES6的其他新语法和特性。
 
 ## 函数命名及变量命名规范
@@ -146,10 +149,10 @@ javascript是单线程的，为了不被执行时间长的任务卡死，javascr
     </body>
     </html>
 
-    //--- javascirpt异步编程：回调函数(callBack)例子----
+    //--- javascript异步编程：回调函数(callBack)例子----
     setTimeout( () => {console.log("异步等待结束");}, 500);
 
-    //--- javascirpt异步编程：注册事件(Event)例子----
+    //--- javascript异步编程：注册事件(Event)例子----
     let req = new XMLHttpRequest();
     req.open("GET", "https://exeutest.blob.core.chinacloudapi.cn/app/dtsversion.json");
     req.onload = function(){
@@ -317,8 +320,8 @@ Promise的使用例子见，项目中的distanceUtil.js。
 
 1. vue文件里面的javascript代码应该力求简洁。
 2. vue对象的变量力求精简（越少越好，变量要写好注释）, 没有初始值的统统赋undefined。
-3. 复杂的javascirpt尽量封装出去，不要全写在一个vue文件里面。
-4. 需要写成全局的javascript，请提交申请说明到开发组。
+3. 复杂的javascript尽量封装出去，不要全写在一个vue文件里面。
+4. 需要写成全局的javascript，请提交申请说明到开发组；否则写在子功能模块所在目录。
 
 ## javascript数据类型
 
@@ -362,7 +365,7 @@ javascript没有内建的enum数据类型，但可以使用第三方包[Enumify]
 
 javascript逻辑等于和逻辑不等于都有两种写法：
 
-1. == 或 ====
+1. == 或 ===
 2. != 或 !==
 
 其中 == 和 != 为宽松等于和宽松不等于；
@@ -379,7 +382,7 @@ javascript逻辑等于和逻辑不等于都有两种写法：
 
 答：我们统一使用双引号。
 
-javascipt中有单引号和双引号括起来的string基本没有任何区别。
+javascript中有单引号和双引号括起来的string基本没有任何区别。
 但鉴于json里面的key必须是双引号括起来的string，为了不出问题我们统一使用双引号。
 
 ## 再来谈谈this
@@ -392,8 +395,8 @@ ES6的箭头函数（array function）与javascript一般的函数（function）
 *我们说javascript一般的函数（function）都带一个this，但是this如果离开类对象基本没有用。*
 我们说一般的函数（function）有三种角色：1.构造函数；2.类的成员方法；3.一般的函数。
 
-1. 构造函数this指向自身
-2. 类的成员方法一般的调用时用类对象类调用的，this指向它所在的类对象
+1. 构造函数里的this指向自身
+2. 类的成员方法一般是由类对象调用的，this指向它所在的类对象
 3. 一般的函数基本不会用到this。因为它不是一个类，也不是一个类对象的成员方法，所以压根就不要用this。
 
 [vue特别声明某些生命周期钩子函数不能使用箭头函数](https://vuejs.org/v2/guide/instance.html#Data-and-Methods)

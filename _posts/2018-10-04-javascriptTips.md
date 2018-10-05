@@ -118,6 +118,7 @@ javascript中函数(function)有三种角色，分别为：
 javascript是单线程的，为了不被执行时间长的任务卡死，javascript提供了几种异步编程的模式（也就把执行时间长的任务异步执行，执行完成后告知结果）。
 
 *1.* 回调函数(callBack)
+
 *2.* 注册事件(Event)
 
     <!----下面这个网页演示了不使用异步等待，UI将会卡死---->
@@ -387,7 +388,7 @@ javascript中有单引号和双引号括起来的string基本没有任何区别�
 
 ## 再来谈谈this
 
-ES6的箭头函数（array function）与javascript一般的函数（function）最大区别在于：
+ES6的箭头函数（arrow function）与javascript一般的函数（function）最大区别在于：
 前者没有自带的this，而后者自带。
 
 所以箭头函数作为类的构造函数，即不能new；而javascript一般的函数可以new。
@@ -427,5 +428,16 @@ ES6的箭头函数（array function）与javascript一般的函数（function）
     console.log('arrowFunc invoking x = ', a.arrowFunc());
     console.log('arrowFunc:apply:a getX x = ', a.arrowFunc.apply(a));
     console.log('arrowFunc:apply:otherClient getX x = ', a.arrowFunc.apply(otherClient));
+
+## import的路径
+
+    //导入vue文件，.vue后缀禁止省略。 
+    import titlec from "../../../tools/titlec.vue";
+    
+    #如果导入时vue后缀省略了，weex打包／压缩打包命令将失败
+    weex compile -m src detinationFolder
+
+    //导入js文件，.js缀可以省略。如:
+    import { YtQuerySQL } from "../../plugins/DbPlugins";    
 
 

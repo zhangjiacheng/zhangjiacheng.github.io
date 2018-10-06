@@ -277,10 +277,10 @@ Promise的使用例子见，项目中的distanceUtil.js。
                         let item= ret.success[0];
                         resolve(parseInt(item.ONTAP__checkindistance_threshold__c))
                     }
-                    else{
+                    else {
                         resolve(0);
                     }
-			    }
+                }
             }); 
         });
     }
@@ -310,7 +310,7 @@ Promise的使用例子见，项目中的distanceUtil.js。
                     else {
                         resolve(150);
                     }
-			    }
+                }
             }); 
         });
     }

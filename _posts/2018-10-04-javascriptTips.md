@@ -429,6 +429,40 @@ ES6的箭头函数（arrow function）与javascript一般的函数（function）
     console.log('arrowFunc:apply:a getX x = ', a.arrowFunc.apply(a));
     console.log('arrowFunc:apply:otherClient getX x = ', a.arrowFunc.apply(otherClient));
 
+    //---- use apply to bind this, and callback can leverage 'this' to get some specific variables from the caller (following code demostrades the node.js sqlite3 library) 
+    
+    const sqlite3 = require('sqlite3');
+    const Promise = require('bluebird');
+
+    class AppDAO {
+
+        constructor(dbFilePath) {
+            this.db = new sqlite3.Database(dbFilePath, (err) => {
+                if(err) {
+                    console.log('ZJC could not connect to database');
+                }
+                else {
+                    console.log('ZJC Connected to database');
+                }
+            });
+        }
+
+        run(sql, params = []) {
+            return new Promise((resolve, reject) => {
+                this.db.run(sql, params, function(err) {
+                    if(err) {
+                        console.log('ZJC Error running sql : ' + sql + ' Error :' + err );
+                        reject(err);
+                    }
+                    else {
+                        resolve({id: this.lastID});
+                    }
+                })
+            })
+        }
+
+    }
+
 ## import的路径
 
     //导入vue文件，.vue后缀禁止省略。 

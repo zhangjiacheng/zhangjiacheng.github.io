@@ -2,5 +2,5 @@
 
 label: Ability
 id : cs
-aspects: Objective-C, English, Javascript, Salesforce, Swift
-percentage: 85, 75, 65, 65, 65
+aspects: Objective-C, Swift, English,Java, Javascript, Salesforce
+percentage: 85, 75, 75, 75, 75, 75

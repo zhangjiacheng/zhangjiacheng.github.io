@@ -2,7 +2,12 @@
 # if you don't have language feature(language.yml is empty), ignore "i18n" items
 - name: Unisoft
   link: http://www.cn-unisoft.com/
-  date: Jan 2013 - <i class="fa fa-clock-o" aria-hidden="true" title="Until Now"></i>
+  date: Feb 2018 - <i class="fa fa-clock-o" aria-hidden="true" title="Until Now"></i>
+  job: Project Manager
+
+- name: Unisoft
+  link: http://www.cn-unisoft.com/
+  date: Jan 2013 - Feb 2018
   job: Senior Mobile Developer
 
 - name: Cyber Tech

@@ -9,6 +9,7 @@ tag: English Learning
 ## 背诵记录 Reciting record
 
 <a href="https://v.douyin.com/ieFyV1mE/"><b>点击此抖音-背诵记录</b></a>
+<a href="https://weixin.qq.com/sph/AHCOTX"><b>点击此微信视频-背诵记录</b></a>
 
 ## 新单词 New words
 - Sugar 糖

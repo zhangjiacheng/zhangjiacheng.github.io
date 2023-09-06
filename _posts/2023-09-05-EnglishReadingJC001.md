@@ -29,7 +29,7 @@ tag: English Reading
 
     Previous, Trump was accused of racketeering and conspiracy amid of 2020 president election in the state of Georgia.
 
-    Trump is said to be seeking to maximise television ratings to his benefit, and coverage f the proceedings could be extended by speaking in front of cameras and reporters.
+    Trump is said to be seeking to maximise television ratings to his benefit, and coverage of the proceedings could be extended by speaking in front of cameras and reporters.
 
     Turning surrenders in each of his four criminal cases into spectacles has been aimed to discredit the indictments.
 

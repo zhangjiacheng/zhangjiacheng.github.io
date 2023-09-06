@@ -6,10 +6,31 @@ description: "Practice English Reading"
 tag: English Reading
 ---   
 
-## Prosecutors accuse the ex-president - 2023-09-05
+## Trump surrendered to the jail in high key
+
+<a href="https://xima.tv/1_2nstUL?_sonic=0"><b>点击喜马拉雅-Reading Record</b></a>
+
+    ## 2023-09-06
+
+    ## Words:
+    racketeering 敲诈勒索 诈骗
+    conspiracy  阴谋
+    spectacle 壮观的景象
+    indictment 起诉，公诉，腐败现象
+    mugshot 大头像，监狱头像
+    crony 密友 好友
+    conservative 保守的
+    scheming 密谋 诡计多端的
+    subvert 颠覆，暗中破坏
+    desperate 绝望的 不顾一切的
+    zealous 热情的，充满激情的
+
+## Prosecutors accuse the ex-president
 
 <a href="https://xima.tv/1_sFDH17q?_sonic=0"><b>点击喜马拉雅-Reading Record</b></a>
 
+    ## 2023-09-05
+    
     ## Words:
 
     meddle 干涉
@@ -29,3 +50,6 @@ tag: English Reading
     The case is part of an onging set of escalating legal troubles for the ex-president,
     coming nearly two months after Trump pleaded not guilty to dozens of federal felony counts
     accusing him of hoarding classified documents.
+
+
+

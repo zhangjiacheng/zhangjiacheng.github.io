@@ -6,9 +6,22 @@ description: "Practice English Reading"
 tag: English Reading
 ---   
 
+## Active Listensing is crutial
+<a href="https://xima.tv/1_Gf0pd3?_sonic=0"><b>点击喜马拉雅-Reading Record</b></a>
+
+```
+## 2023-09-08
+
+## Words:
+foster 促进
+
+## Key Sentences:
+Active listening can foster collaboration with coworkers and new approaches to explore.
+```
+
 ## Trump surrendered to the jail in high key
 
-<a href="https://xima.tv/1_2nstUL?_sonic=0"><b>点击喜马拉雅-Reading Record</b></a>
+<a href="https://xima.tv/1_ciIMQV?_sonic=0"><b>点击喜马拉雅-Reading Record</b></a>
 
     ## 2023-09-06
 

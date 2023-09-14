@@ -16,4 +16,4 @@ erDiagram
     Opportunity }|..|{ Campaign : Influence
 ```
 
-> ** How to Track: ** Leads and Contacts can add as Campaign Members who will participate  the Campaign. And in Salesforce there is a filed Status to track the engagement of the Campaign, say the Campaign member 'Accepted' or 'Attended' a Webinar Campaign.
+> ** How to Track: ** Leads and Contacts can be added as Campaign Members who will participate  the Campaign. And in Salesforce there is a field 'Status' to track the engagement of the Campaign, say the Campaign member status set to 'Accepted' or 'Attended' for a Webinar Campaign.

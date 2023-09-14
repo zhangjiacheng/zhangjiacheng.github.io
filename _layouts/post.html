@@ -2,6 +2,12 @@
 layout: default
 ---
 
+<script type="module">
+  import mermaid from 'https://cdn.jsdelivr.net/npm/mermaid@10.0.2/+esm'
+  mermaid.initialize({startOnLoad:true,theme:'neutral'})
+  await mermaid.run({querySelector:'code.language-mermaid'})
+</script>
+
 <a class="btn" href= "{{ site.url }}/" >
   Home
 </a>

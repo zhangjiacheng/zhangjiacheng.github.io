@@ -10,8 +10,8 @@ tag: Salesforce
 
 ```mermaid
 erDiagram 
-    Lead }|..|{ CampaignMember : "Join As"
-    Contact }|..|{ CampaignMember : "Join As"
+    CampaignMember ||--|{ Lead : "Join As"
+    CampaignMember ||--|{ Contact : "Join As"
     Campaign ||--|{ CampaignMember : Participate 
     Opportunity }|..|{ Campaign : Influence
 ```

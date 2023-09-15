@@ -10,11 +10,11 @@ mermaid: true
 ## Data Model In Salesforce Sales Cloud
 
 <div class="mermaid">
-erDiagram 
-    CampaignMember ||--|{ Lead : "Join As"
-    CampaignMember ||--|{ Contact : "Join As"
-    Campaign ||--|{ CampaignMember : Participate 
-    Opportunity }|..|{ Campaign : Influence
+graph TD;
+    Lead-->CampaignMember;
+    Contact-->CampaignMember;
+    CampaignMember-->Campaign;
+    Campaign-->Opportunity;
 </div>
 
 > **How to Track:** Leads and Contacts can be added as Campaign Members who will participate  the Campaign. And in Salesforce there is a field 'Status' to track the engagement of the Campaign, say the Campaign member status set to 'Accepted' or 'Attended' for a Webinar Campaign.

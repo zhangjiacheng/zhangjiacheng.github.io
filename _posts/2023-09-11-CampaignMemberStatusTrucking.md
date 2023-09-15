@@ -18,13 +18,13 @@ graph LR;
 </div>
 
 ## What is Campaign Member Status
-Leads and Contacts can be added as Campaign Members who will participate  the Campaign. And in Salesforce there is a field 'Status' to track the engagement of the Campaign, say the Campaign member status set to 'Accepted' or 'Attended' for a Webinar Campaign.
+Leads and Contacts can be added as Campaign Members who will participate  the Campaign. And in Salesforce there is a field 'Status' in CampaignMember Object to track the engagement of the Campaign, say the Campaign member status set to 'Accepted' or 'Attended' for a Webinar Campaign.
 
 - The default options of the Campaign Member Status are:
    - Sent
    - Received
    - Responsed
-- Salesforce provides the `Campaign Member Statuses` standard related list (can be dragged to the page layout if you want to use it) to add or edit the Status options.
+- Salesforce provides the `Campaign Member Statuses` standard related list (can be dragged to the page layout if you want to use it. <b>Important: Campaign Member Status options are determined by individual Campaign, not by the picklist values of the Status field. So we should always use the `Campaign Member Statuses` to maintain the Status Options.</b>) to add or edit the Status options.
 
 
 ## Why tracking Campaign Member Status

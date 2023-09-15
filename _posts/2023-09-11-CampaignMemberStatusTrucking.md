@@ -24,7 +24,7 @@ Leads and Contacts can be added as Campaign Members who will participate  the Ca
    - Sent
    - Received
    - Responsed
-- Salesforce provides the `Campaign Member Statuses` to add or edit the Status options.
+- Salesforce provides the `Campaign Member Statuses` standard related list (can be dragged to the page layout if you want to use it) to add or edit the Status options.
 
 
 ## Why tracking Campaign Member Status

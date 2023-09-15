@@ -10,7 +10,7 @@ mermaid: true
 ## Data Model In Salesforce Sales Cloud
 
 <div class="mermaid">
-graph TD;
+graph LR;
     Lead-->CampaignMember;
     Contact-->CampaignMember;
     CampaignMember-->Campaign;

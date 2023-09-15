@@ -13,10 +13,10 @@ tag: English Learning
 
 ## 学习的问题点 The Problems 
 - You are back from China.
-   - 意思是：你从中国回来了。（开始错误理解为：你会中国了）
+   - 意思是：你从中国回来了。（开始错误理解为：你回中国了。）
 
 - Let's buy some.
-   - Let's 是 Let us 的简写，不是Let is.
+   - Let's 是 Let us 的简写（意思是让我们），不是Let is.
     
     
 

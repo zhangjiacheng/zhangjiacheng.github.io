@@ -7,7 +7,29 @@ tag: English Reading
 ---   
 
 ## Active Listensing is crutial
-<a href="https://xima.tv/1_Gf0pd3?_sonic=0"><b>点击喜马拉雅-Reading Record</b></a>
+<a href="https://xima.tv/1_4swjnD?_sonic=0"><b>点击喜马拉雅-Reading Record</b></a>    <a href="https://pan.baidu.com/s/1WXj7LTjlLij09-sEeJC_Vw?pwd=8saj "><b>百度网盘</b></a> 
+
+
+```
+## 2023-09-16
+
+## Words:
+Comet 彗星
+Dawn 黎明 the time of day when light first appears
+Crescent 新月，新月形 a curved shap that is wide in the middle and pointed to each end
+diameter 直径
+exaggeration 夸张 言过其实
+speculate 推测
+meteor 流星
+
+## Key Sentences:
+According to astronomers, sky-watchers are getting a rare and exciting opportunity to see a comet with their naked eye. This opportunity is being hailed a `once-in-a-lifetime` experience.
+
+This comet could be the source of annual Sigma-Hydrid meteor shower, which lights up skies every December.
+```
+
+## Active Listensing is crutial
+<a href="https://xima.tv/1_Gf0pd3?_sonic=0"><b>点击喜马拉雅-Reading Record</b></a>   <a href="https://pan.baidu.com/s/1yrVFu7wnNjUM_3mGI36h4g?pwd=8saj"><b>百度网盘</b></a> 
 
 ```
 ## 2023-09-08
@@ -21,7 +43,7 @@ Active listening can foster collaboration with coworkers and new approaches to e
 
 ## Trump surrendered to the jail in high key
 
-<a href="https://xima.tv/1_ciIMQV?_sonic=0"><b>点击喜马拉雅-Reading Record</b></a>
+<a href="https://xima.tv/1_ciIMQV?_sonic=0"><b>点击喜马拉雅-Reading Record</b></a>   <a href="https://pan.baidu.com/s/19QQGaed6nf4w_eMDxOw6hg?pwd=8saj"><b>百度网盘</b></a> 
 
     ## 2023-09-06
 
@@ -49,7 +71,7 @@ Active listening can foster collaboration with coworkers and new approaches to e
 
 ## Prosecutors accuse the ex-president
 
-<a href="https://xima.tv/1_sFDH17q?_sonic=0"><b>点击喜马拉雅-Reading Record</b></a>
+<a href="https://xima.tv/1_sFDH17q?_sonic=0"><b>点击喜马拉雅-Reading Record</b></a>    <a href="https://pan.baidu.com/s/1SWRSpr139DsQV8zE0yLCYA?pwd=8saj"><b>百度网盘</b></a> 
 
     ## 2023-09-05
     

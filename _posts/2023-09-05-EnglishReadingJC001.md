@@ -6,7 +6,7 @@ description: "Practice English Reading"
 tag: English Reading
 ---   
 
-## Active Listensing is crutial
+## Once-in-a-lifetime opportunity to watch the comet
 <a href="https://xima.tv/1_4swjnD?_sonic=0"><b>点击喜马拉雅-Reading Record</b></a>    <a href="https://pan.baidu.com/s/1WXj7LTjlLij09-sEeJC_Vw?pwd=8saj "><b>百度网盘</b></a> 
 
 

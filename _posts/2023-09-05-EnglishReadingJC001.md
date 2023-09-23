@@ -7,7 +7,26 @@ tag: English Reading
 ---   
 
 ## Once-in-a-lifetime opportunity to watch the comet
-<a href="https://xima.tv/1_4swjnD?_sonic=0"><b>点击喜马拉雅-Reading Record</b></a>    <a href="https://pan.baidu.com/s/1WXj7LTjlLij09-sEeJC_Vw?pwd=8saj "><b>百度网盘</b></a> 
+<a href="https://xima.tv/1_X6dsC1?_sonic=0"><b>点击喜马拉雅-Reading Record</b></a>    <a href="https://pan.baidu.com/s/1M8HuvvvYqmdd8QBEG5PXUA?pwd=8saj"><b>百度网盘</b></a> 
+
+```
+## Words
+poignant  惨痛
+terrorsit 恐怖分子 Tourist 旅行者
+rubble 碎石;瓦砾;碎砖
+withhold 拒绝给
+
+## Key Sentences
+
+For firefighter and police, the losses on that sunny day in 2001 are particularly poignant.
+
+Monday marked the 22nd anniversary of the 911 attacks.
+
+That was a process that relied on leading-edge DNA sequencing techniques to test body fragments recovered in the rubble.
+```
+
+## Once-in-a-lifetime opportunity to watch the comet
+<a href="https://xima.tv/1_4swjnD?_sonic=0"><b>点击喜马拉雅-Reading Record</b></a>    <a href="https://pan.baidu.com/s/1WXj7LTjlLij09-sEeJC_Vw?pwd=8saj"><b>百度网盘</b></a> 
 
 
 ```

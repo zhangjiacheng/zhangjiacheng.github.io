@@ -12,7 +12,7 @@ tag: English Reading
 ```
 ## Words
 poignant  惨痛
-terrorsit 恐怖分子 Tourist 旅行者
+terrorist 恐怖分子 tourist 旅行者
 rubble 碎石;瓦砾;碎砖
 withhold 拒绝给
 

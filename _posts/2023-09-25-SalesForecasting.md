@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Sales Forecasting"
-date: 2023-09-11
+date: 2023-09-25
 description: "Sales Forecasting in Salesforce"
 tag: Salesforce
 mermaid: true

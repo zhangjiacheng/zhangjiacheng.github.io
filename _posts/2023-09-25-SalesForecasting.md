@@ -142,6 +142,7 @@ mermaid: true
 sequenceDiagram;
   SalesRep->>SalesManager: Identify and Create Opportunity in timely manner;
   SalesManager-->>SalesRep: Inspecting and Mornitoring pipeline;
-  SalesManager->>C-Suite: Adding judgment and commits;
-  C-Suite-->>SalesManager: Investigate trend and redirect resource;
+  SalesManager->>CSuite: Adding judgment and commits;
+  CSuite-->>SalesManager: Investigate trend and redirect resource;
+  
 </div>

@@ -141,10 +141,7 @@ mermaid: true
 <div class="mermaid">
 sequenceDiagram
   SalesRep->>SalesManager: Identify and Create Opportunity in timely manner
-  loop Inspecting
-      SalesManager->>SalesManager: Inspecting and Mornitoring pipeline
-  end
-  SalesManager-->>SalesRep: making adjustments
-  SalesManager->>C-Suite: adding judgment and commits
+  SalesManager-->>SalesRep: Inspecting and Mornitoring pipeline
+  SalesManager->>C-Suite: Adding judgment and commits
   C-Suite-->>SalesManager: Investigate trend and redirect resource
 </div>

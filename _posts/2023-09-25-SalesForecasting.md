@@ -86,7 +86,7 @@ mermaid: true
         <td>Closed Lost</td>
         <td>0%</td>
       </tr>
-    </tboday>
+    </tbody>
   </table>
 
 
@@ -133,7 +133,7 @@ mermaid: true
         <td>$1,269,390</td>
         <td>$1,269,390</td>
       </tr>
-    </tboday>
+    </tbody>
   </table>
 
 

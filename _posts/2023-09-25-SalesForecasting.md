@@ -29,65 +29,66 @@ mermaid: true
 
 **Notes:** Based on forecast period (monthly or quarterly) and Opportunity Stage, Sales Cloud accumulates the forcasts data into Categories: `Pipeline`, `Best Case`, `Commit`, `Closed`, `Omitted`. 
 
-<table>
-  <tbody>
-     <tr>
-       <th>Forecast Category</th>
-       <th>Opptunity Stage</th>
-       <th>Probablity</th>
-     </tr>
-     <tr>
-       <td>Pipeline</td>
-       <td>Prospecting</td>
-       <td>10%</td>
-     </tr>
-     <tr>
-       <td>Pipeline</td>
-       <td>Qualification</td>
-       <td>10%</td>
-     </tr>
-     <tr>
-       <td>Pipeline</td>
-       <td>Needs Analysis</td>
-       <td>20%</td>
-     </tr>
-     <tr>
-       <td>Pipeline</td>
-       <td>Value Proposition</td>
-       <td>50%</td>
-     </tr>
-     <tr>
-       <td>Pipeline</td>
-       <td>Id. Decision Makers</td>
-       <td>60%</td>
-     </tr>
+  <table>
+    <tbody>
       <tr>
-       <td>Best Case</td>
-       <td>Perception Analysis</td>
-       <td>70%</td>
-     </tr>
-     <tr>
-       <td>Best Case</td>
-       <td>Proposal/Price Quote</td>
-       <td>75%</td>
-     </tr>
-     <tr>
-       <td>Commit</td>
-       <td>Negotiation/Review</td>
-       <td>90%</td>
-     </tr>
-     <tr>
-       <td>Closed</td>
-       <td>Closed Won</td>
-       <td>100%</td>
-     </tr>
-     <tr>
-       <td>Omitted</td>
-       <td>Closed Lost</td>
-       <td>0%</td>
-     </tr>
-  </tboday>
-</table>
+        <th>Forecast Category</th>
+        <th>Opptunity Stage</th>
+        <th>Probablity</th>
+      </tr>
+      <tr>
+        <td>Pipeline</td>
+        <td>Prospecting</td>
+        <td>10%</td>
+      </tr>
+      <tr>
+        <td>Pipeline</td>
+        <td>Qualification</td>
+        <td>10%</td>
+      </tr>
+      <tr>
+        <td>Pipeline</td>
+        <td>Needs Analysis</td>
+        <td>20%</td>
+      </tr>
+      <tr>
+        <td>Pipeline</td>
+        <td>Value Proposition</td>
+        <td>50%</td>
+      </tr>
+      <tr>
+        <td>Pipeline</td>
+        <td>Id. Decision Makers</td>
+        <td>60%</td>
+      </tr>
+        <tr>
+        <td>Best Case</td>
+        <td>Perception Analysis</td>
+        <td>70%</td>
+      </tr>
+      <tr>
+        <td>Best Case</td>
+        <td>Proposal/Price Quote</td>
+        <td>75%</td>
+      </tr>
+      <tr>
+        <td>Commit</td>
+        <td>Negotiation/Review</td>
+        <td>90%</td>
+      </tr>
+      <tr>
+        <td>Closed</td>
+        <td>Closed Won</td>
+        <td>100%</td>
+      </tr>
+      <tr>
+        <td>Omitted</td>
+        <td>Closed Lost</td>
+        <td>0%</td>
+      </tr>
+    </tboday>
+  </table>
+
 
 ## Related Forecasts Settings
 
@@ -112,28 +113,29 @@ mermaid: true
 
 > **Notes:** Following report is created from the Report type `Forecasting Items with Historical Trending` Salesforce provided.
 
-<table>
-  <tbody>
-     <tr>
-       <th>Forecasting Type</th>
-       <th>Forecast Category</th>
-       <th>Start Date</th>
-       <th>End Date</th>
-       <th>Forecast Amount</th>
-       <th>Amount Without Adjustments</th>
-       <th>Amount Without Manager Adjustment</th>
-     </tr>
-     <tr>
-       <td>OpportunityRevenue</td>
-       <td>Pipeline</td>
-       <td>2023/9/1</td>
-       <td>2023/9/30</td>
-       <td>$1,269,390</td>
-       <td>$1,269,390</td>
-       <td>$1,269,390</td>
-     </tr>
-  </tboday>
-</table>
+  <table>
+    <tbody>
+      <tr>
+        <th>Forecasting Type</th>
+        <th>Forecast Category</th>
+        <th>Start Date</th>
+        <th>End Date</th>
+        <th>Forecast Amount</th>
+        <th>Amount Without Adjustments</th>
+        <th>Amount Without Manager Adjustment</th>
+      </tr>
+      <tr>
+        <td>OpportunityRevenue</td>
+        <td>Pipeline</td>
+        <td>2023/9/1</td>
+        <td>2023/9/30</td>
+        <td>$1,269,390</td>
+        <td>$1,269,390</td>
+        <td>$1,269,390</td>
+      </tr>
+    </tboday>
+  </table>
+
 
 ## How to use Forecast Process for the Sales team
 <div class="mermaid">
@@ -146,5 +148,3 @@ sequenceDiagram
   SalesManager->>C-Suite: adding judgment and commits
   C-Suite-->>SalesManager: Investigate trend and redirect resource
 </div>
-
-## Custome Forecasting Solution

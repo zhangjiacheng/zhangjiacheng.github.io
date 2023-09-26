@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Sales Forecasting"
+title: "Salesforce Sales Cloud Forecasting"
 date: 2023-09-25
 description: "Sales Forecasting in Salesforce"
 tag: Salesforce

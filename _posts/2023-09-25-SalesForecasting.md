@@ -42,7 +42,7 @@ mermaid: true
 
 ## Forecast categories
 
-**Notes:** Based on forecast period (monthly or quarterly) and Opportunity Stage, Sales Cloud accumulates the forcasts data into Categories: `Pipeline`, `Best Case`, `Commit`, `Closed`, `Omitted`. 
+> **Notes:** Based on forecast period (monthly or quarterly) and Opportunity Stage, Sales Cloud accumulates the forcasts data into Categories: `Pipeline`, `Best Case`, `Commit`, `Closed`, `Omitted`. 
 
   <table>
     <tbody>
@@ -162,4 +162,4 @@ sequenceDiagram;
   
 </div>
 
-> ** User license ** Available in: Professional, Performance, and Developer Editions and in Enterprise and Unlimited Editions with the Sales Cloud. Users of these Salesforce Edition Orgs can use it without needing extra license.
+> **User license** Available in: Professional, Performance, and Developer Editions and in Enterprise and Unlimited Editions with the Sales Cloud. Users of these Salesforce Edition Orgs can use it without needing extra license.

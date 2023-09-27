@@ -11,6 +11,21 @@ mermaid: true
 
 <img src="https://architect.salesforce.com/1/asset/immutable/s/a86a100/assets/images/data-models/sales-cloud-opportunity-forecasting-data-model.png" alt="Data Model of Salesforce Forecast"/>
 
+## Forecast vs. Pipeline
+<table>
+ <tbody>
+   <tr>
+     <th>Pipeline</th>
+     <td>is a comprehensive view of a rep’s open opportunities, no matter what stage they’re in. It includes everything from the newest prospect to that opportunity with a pen in hand, ready to sign.</td>
+   </tr>
+   <tr>
+     <th>Forecast</th>
+     <td>is a subset of the pipeline and includes just those deals expected to close in a certain period, like this quarter, for example.</td>
+   </tr>
+ </tbody>
+</table>
+
+
 ## The supported Data Source Objects which Sales Cloud Forecasting is based on
 - Opportunity (API Name: Opportunity)
 - Opportunity Product (API Name: OpportunityLineItem)
@@ -146,3 +161,5 @@ sequenceDiagram;
   CSuite-->>SalesManager: Investigate trend and redirect resource;
   
 </div>
+
+> ** User license ** Available in: Professional, Performance, and Developer Editions and in Enterprise and Unlimited Editions with the Sales Cloud. Users of these Salesforce Edition Orgs can use it without needing extra license.

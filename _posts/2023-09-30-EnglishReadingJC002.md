@@ -13,8 +13,8 @@ tag: English Reading
 ## 2023-10-01
 
 ## Words
-longing  渴望，热望
-snap up  一枪二管
+longing  渴望，热望 Example: is longing for sth
+snap up  抢购，一抢而光
 
 ## Key Sentences
 

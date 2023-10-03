@@ -102,6 +102,8 @@ cohort n. 同伙，支持者
 
 A sedentary lifestyle, lacking physical activity, is widely supported by scientific research as detrimental to our health.
 
+Not only to our physical health but also to our mental well-being and even the overall longevity.
+
 A specific amount of daily exercise is needed to offset the negative effects of sitting for 10 hours a day.
 
 ```

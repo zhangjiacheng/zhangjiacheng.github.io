@@ -20,6 +20,7 @@ laysuites 诉讼
 ## Key Sentences
 Multiple political polls indicate Donald Trump is seem as the top contender for the Republican predidential nonimation.
 
+//---虚拟语气 Subjunctive mood, 如果怎么样（而非真实发生的），用过去时
 If the election were to be held during the poll, 39% would vote for Trump and 36% would vote for Biden.
 
 ```

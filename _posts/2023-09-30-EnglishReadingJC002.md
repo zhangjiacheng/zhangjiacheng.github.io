@@ -6,8 +6,34 @@ description: "Practice English Reading"
 tag: English Reading
 ---  
 
+## Basic grammars of English
+<a href="https://xima.tv/1_798lsL?_sonic=0"><b>点击喜马拉雅-Reading Record</b></a>    <a href="https://pan.baidu.com/s/1l4opmc9yX1FgDuiGCiwghQ?pwd=8saj"><b>百度网盘</b></a> 
+
+```
+## 2023-10-04
+
+## Words
+gerund 动名词
+habitual 习惯性的
+granted 当然的,不错，的确
+punctuation 标点符号
+nerve n. 神经 vt. 鼓起勇气
+essay 散文
+
+
+## Key Sentences
+
+While punctuation may not be considered a traditional part of English grammar, one cannot have perfect grammar without it.
+
+On the contrary, one of the main usages of the present simple tense is, in fact, to describe habitual actions and routines - something we've all probably learned in our very first English lessons.
+
+The greate part of the world's troubles are due to questions of grammars -- Michel, the complete essay.
+And he couldn't have been more right!
+
+```
+
 ## Polls revealed currently Trump is advance than Biden for 2024 Presidential Election
-<a href="https://xima.tv/1_4PyDw4?_sonic=0"><b>点击喜马拉雅-Reading Record</b></a>    <a href="https://pan.baidu.com/s/1BppwF3kw4u8TYjUbbqDWpg?pwd=8saj "><b>百度网盘</b></a> 
+<a href="https://xima.tv/1_4PyDw4?_sonic=0"><b>点击喜马拉雅-Reading Record</b></a>    <a href="https://pan.baidu.com/s/1BppwF3kw4u8TYjUbbqDWpg?pwd=8saj"><b>百度网盘</b></a> 
 
 ```
 ## 2023-10-03

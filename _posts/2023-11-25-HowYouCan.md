@@ -15,9 +15,10 @@ tag: 生活
 
 
 > **王立群's you can formula** The four Criteria that determined whether you can
+
 - 1 You must can
 - 2 The People say you can 
 - 3 The People who say you can must can
 - 4 Your health can
 
-`王立群's you can formula*` = 1 & 2 & 3 & 4
+`王立群's you can formula` = 1 & 2 & 3 & 4

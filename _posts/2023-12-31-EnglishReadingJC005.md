@@ -104,3 +104,27 @@ Gym access may be difficult. Incorporate bodyweight movements such as squats, lu
 
 ```
 
+
+## US exhausts Ukraine military assistant founding
+ <a href="https://xima.tv/1_oIiy1K2?_sonic=0"><b>点击喜马拉雅-Reading Record</b></a> <a href="https://pan.baidu.com/s/1febDvhSQvcG2uhV0Au20gQ?pwd=8saj"><b>百度网盘</b></a> 
+
+```
+
+## 2024-01-13
+
+## Words
+artillery n. 炮，大炮
+munition n. 弹药，军火 ammunition n. 弹药，军火. While "ammunition" specifically relates to the materials used for firing weapons, "munition" is a more comprehensive term that includes various military supplies and equipment beyond just ammunition.
+reiterate vt. 重申
+withhold vt. 决绝给， 保留
+contingent n. 代表团，分遣队； adj. 依情况而定的
+
+
+## Key Sentences
+The US State department announced this year's final package of weapons and equipment to aid Ukraine.
+This exhausts the existing founding still at the Biden adminstration's disposal.
+
+Republicans on Capitol Hill are withholding their votes for new founds for Ukraine.
+Their approval is contingent upon Democrats making compromises to meet the GOP's demand for stricter border control measures to deter incoming migrants.
+
+```

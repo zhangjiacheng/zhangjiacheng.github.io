@@ -8,7 +8,7 @@ tag: Wechat
 
 ## 微信公众号开发架构
 
-微信(Wechat) < == > 我们开发的服务(Provider) < == > HTML5
+微信(Wechat) < == > 我们开发的服务( Provider ) < == > HTML5
 
 微信公众号的本质是：
 微信提供第三方服务网页的接入入口和呈现容器（定制的Webview）。
